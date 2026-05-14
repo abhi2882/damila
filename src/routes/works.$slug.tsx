@@ -59,7 +59,7 @@ function WorkPage() {
             <div className="flex flex-wrap items-center gap-3 text-[10px] uppercase tracking-[0.35em] text-muted-foreground">
               <span>{work.kind}</span>
               {work.year && <span>· {work.year}</span>}
-              {work.themes.map((t) => (
+              {work.themes.map((t: string) => (
                 <span key={t} className="text-accent">· {t}</span>
               ))}
             </div>
