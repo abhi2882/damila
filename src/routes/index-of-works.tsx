@@ -13,9 +13,9 @@ export const Route = createFileRoute("/index-of-works")({
 });
 
 const kindColor: Record<Work["kind"], string> = {
-  pdf: "#4A0000",
-  audio: "#676700",
-  video: "#003C5F",
+  pdf: "#ff4b4b",
+  audio: "#b3b339",
+  video: "#ffffff",
   text: "var(--ochre)",
 };
 
