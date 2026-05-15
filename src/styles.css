@@ -62,15 +62,15 @@
   /* world palette */
   --parchment: oklch(0.97 0.005 95);    /* white text */
   --ink: oklch(0.14 0.008 250);         /* near-black bg (not pure) */
-  --clay: #4A0000;                       /* oxblood red */
+  --clay: #ff4b4b;                       /* oxblood red */
   --ochre: oklch(0.82 0.17 88);         /* medium chrome yellow */
-  --sage: #676700;                       /* olive */
+  --sage: #b3b339;                       /* olive */
   --moss: oklch(0.55 0.09 115);         /* lighter olive accent */
 
   /* kind colour-coding */
-  --kind-pdf: #4A0000;     /* oxblood */
-  --kind-audio: #676700;   /* olive */
-  --kind-video: #003C5F;   /* deep ocean blue */
+  --kind-pdf: #ff4b4b;     /* oxblood */
+  --kind-audio: #b3b339;   /* olive */
+  --kind-video: #ffffff;   /* deep ocean blue */
   --kind-text: oklch(0.82 0.17 88); /* chrome yellow for the text kind */
 
   --background: oklch(0.14 0.008 250);
@@ -87,7 +87,7 @@
   --muted-foreground: oklch(0.7 0.02 90);
   --accent: var(--ochre);
   --accent-foreground: oklch(0.14 0.008 250);
-  --destructive: #4A0000;
+  --destructive: #ff4b4b;
   --destructive-foreground: var(--parchment);
   --border: oklch(0.3 0.015 250);
   --input: oklch(0.3 0.015 250);

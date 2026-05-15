@@ -3,9 +3,9 @@ import { useMemo } from "react";
 import { works, constellationEdges, type Work } from "@/data/works";
 
 const kindColor: Record<Work["kind"], string> = {
-  pdf: "#4A0000",     // oxblood
-  audio: "#676700",   // olive
-  video: "#003C5F",   // deep ocean blue
+  pdf: "#ff4b4b",     // oxblood
+  audio: "#b3b339",   // olive
+  video: "#ffffff",   // deep ocean blue
   text: "var(--ochre)", // chrome yellow
 };
 
