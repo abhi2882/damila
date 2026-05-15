@@ -5,7 +5,7 @@ import { works, constellationEdges, type Work } from "@/data/works";
 const kindColor: Record<Work["kind"], string> = {
   pdf: "#ff4b4b",     // oxblood
   audio: "#b3b339",   // olive
-  video: "#ffffff",   // deep ocean blue
+  video: "#51a0ce",   // deep ocean blue
   text: "var(--ochre)", // chrome yellow
 };
 

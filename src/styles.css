@@ -70,7 +70,7 @@
   /* kind colour-coding */
   --kind-pdf: #ff4b4b;     /* oxblood */
   --kind-audio: #b3b339;   /* olive */
-  --kind-video: #ffffff;   /* deep ocean blue */
+  --kind-video: #51a0ce;   /* deep ocean blue */
   --kind-text: oklch(0.82 0.17 88); /* chrome yellow for the text kind */
 
   --background: oklch(0.14 0.008 250);
