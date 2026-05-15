@@ -93,6 +93,7 @@ export function Constellation() {
                   fontSize: `${(w.magnitude ?? 1) * 1.6}rem`,
                   color,
                   textShadow: `0 0 14px ${color}`,
+                  WebkitTextStroke: "0.5px var(--parchment)",
                 }}
                 aria-hidden
               >
