@@ -119,7 +119,7 @@
   }
 
   ::selection {
-    background: color-mix(in oklab, var(--clay) 35%, transparent);
+    background: color-mix(in oklab, var(--ochre) 50%, transparent);
     color: var(--ink);
   }
 }
