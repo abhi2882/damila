@@ -29,7 +29,10 @@ function Home() {
 
       <main className="px-6 md:px-12 pb-24">
         <section className="mx-auto max-w-3xl text-center pt-6 pb-12">
-          <p className="text-[11px] uppercase tracking-[0.4em] text-muted-foreground">
+          <p
+            className="text-[11px] uppercase tracking-[0.4em]"
+            style={{ color: "var(--ochre)" }}
+          >
             entry · the sky
           </p>
           <h1 className="mt-5 font-display italic text-4xl md:text-6xl leading-[1.05] text-balance text-foreground">
@@ -52,7 +55,10 @@ function Home() {
         </section>
 
         <section className="mx-auto mt-16 max-w-2xl text-center">
-          <div className="text-[10px] uppercase tracking-[0.4em] text-muted-foreground">
+          <div
+            className="text-[10px] uppercase tracking-[0.4em]"
+            style={{ color: "var(--ochre)" }}
+          >
             ✦ tap any star ✦
           </div>
         </section>
